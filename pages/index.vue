@@ -1,9 +1,6 @@
 <template>
   <div class="container">
-    <header>
-      <img :src="catImg" alt="a cat" class="profile">
-      <h1>Catlyn Meowington</h1>
-    </header>
+    <Hero name="Catlyn Meowington" />
     <section class="bio">
       <p>{{ bio }}</p>
     </section>
